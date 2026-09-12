@@ -27,6 +27,14 @@ Then open http://127.0.0.1:8000/ in your browser.
 
 The site is automatically built and deployed to GitHub Pages on every push to `main` via `.github/workflows/gh-pages.yml`.
 
+## Backend
+
+[`backend/`](backend/) is a separate Node.js service that polls authenticated
+environmental data feeds (NASA FIRMS, OpenAQ, Global Forest Watch) that the
+static docs site can't call directly, and serves them over a JSON API. See
+[`backend/README.md`](backend/README.md) for setup — it's optional and
+doesn't affect the GitHub Pages deployment.
+
 ## License
 
 See [LICENSE](LICENSE) for details.

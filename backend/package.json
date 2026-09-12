@@ -1,0 +1,20 @@
+{
+  "name": "environment-program-backend",
+  "version": "0.1.0",
+  "description": "Scheduled aggregator for authenticated environmental data feeds (FIRMS, OpenAQ, GFW GLAD), serving them over a same-origin API for the Live Monitor page.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "node-cron": "^3.0.3"
+  }
+}
