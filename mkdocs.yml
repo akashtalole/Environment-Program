@@ -34,6 +34,7 @@ theme:
 
 nav:
   - Home: index.md
+  - Live Monitor: live-monitor.md
   - Technology Areas: technology-areas.md
   - Use Cases: use-cases.md
   - Risks & Responsible Deployment: risks.md
