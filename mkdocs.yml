@@ -37,11 +37,13 @@ nav:
   - Technology Areas: technology-areas.md
   - Use Cases: use-cases.md
   - Risks & Responsible Deployment: risks.md
+  - Current Challenges (2026): challenges-2026.md
   - Recommendations: recommendations.md
 
 markdown_extensions:
   - admonition
   - tables
+  - footnotes
   - toc:
       permalink: true
   - pymdownx.highlight

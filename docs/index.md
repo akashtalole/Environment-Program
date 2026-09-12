@@ -12,4 +12,4 @@ Environmental challenges — climate change, biodiversity loss, and pollution (U
 - **The action gap** — turning data and warnings into effective, timely responses.
 - **The scale gap** — deploying solutions fast enough and broadly enough to matter.
 
-Use the navigation above to explore [Technology Areas](technology-areas.md), real-world [Use Cases](use-cases.md), the [Risks & Responsible Deployment](risks.md) considerations, and [Recommendations](recommendations.md) for scaling these solutions.
+Use the navigation above to explore [Technology Areas](technology-areas.md), real-world [Use Cases](use-cases.md), the [Risks & Responsible Deployment](risks.md) considerations, [Current Challenges (2026)](challenges-2026.md) facing this space, and [Recommendations](recommendations.md) for scaling these solutions.
