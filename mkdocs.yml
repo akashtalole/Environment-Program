@@ -1,0 +1,51 @@
+site_name: Environment Program
+site_description: How technology can help save the environment — a UNEP-aligned reference guide.
+site_url: https://akashtalole.github.io/Environment-Program/
+repo_url: https://github.com/akashtalole/Environment-Program
+repo_name: akashtalole/Environment-Program
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.instant
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Home: index.md
+  - Technology Areas: technology-areas.md
+  - Use Cases: use-cases.md
+  - Risks & Responsible Deployment: risks.md
+  - Recommendations: recommendations.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+plugins:
+  - search
